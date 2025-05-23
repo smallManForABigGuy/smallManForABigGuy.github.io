@@ -1,0 +1,268 @@
+<!DOCTYPE HTML>
+<!--
+	Strongly Typed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Bloom & Bees</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header">
+					<div class="container">
+						<!-- Logo -->
+						 	<h1><a href="#"><img src="images/logo.jpg" alt="Bloom & Bees Logo"></a></h1>
+							<h1 id="logo"><a href="#">Bloom & Bees</a></h1>
+
+						<!-- Nav -->
+
+							<nav id="nav">
+								<ul>
+									<li><a class="icon solid fa-home" href="#"><span>Home</span></a></li>
+									<li><a class="icon solid fa-users" href="#"><span>About Us</span></a></li>
+									<li>
+										<a href="#" class="icon fa-calendar"><span>Occasions</span></a>
+										<ul>
+											<li><a href="#">Romance</a></li>
+											<li><a href="#">Birthday</a></li>
+											<li><a href="#">New Baby</a></li>
+											<li><a href="#">Just Because</a></li>
+											<li><a href="#">Get Well</a></li>
+											<li><a href="#">Special</a></li>
+											<li><a href="#">Sympathy</a></li>
+										</ul>
+									</li>
+									<li><a class="icon solid fa-phone" href="#footer"><span>Contact Us</span></a></li>
+									<li><a class="icon solid fa-user" href="#"><span>Log In</span></a></li>
+									<li>
+										<button type="button" class="icon solid fa-search" onclick="openSearch()">Search</button>
+									</li>
+								</ul>
+					</div>
+				</section>
+
+			<!-- Popup -->
+				<div id="popup" class="popup-overlay">
+					<div class="popup-content">
+						<input id="searchInput" type="text" placeholder="Search.." style="width: 95%;">
+						<span class="icon solid fa-times close-btn" onclick="closeSearch()"></span>
+					</div>
+				</div>
+
+			<!-- Banner -->
+				<div id="slider">
+					<a href="#"><img src="images/banner1.jpg" class="slide-in" alt="White Roses Banner"/></a>
+					<a href="#"><img src="images/banner2.jpg" class="slide-out" alt="Roses Banner"/></a>
+					<a href="#"><img src="images/banner3.jpg" class="slide-out" alt="Pink Rose Banner"/></a>
+
+					<button class="previous" onclick="onPreviousClick()" type="button">&#10094;</button>
+  					<button class="next" onclick="onNextClick()" type="button">&#10095;</button>
+
+					<div class="dots"></div>
+				</div>
+
+			<!-- Features -->
+				<section id="features">
+					<div class="container">
+						<header>
+							<h2><strong>Featured Products</strong></h2>
+						</header>
+						<div class="row aln-center">
+							<div class="col-4 col-6-medium col-12-small">
+
+								<!-- Feature -->
+									<section>
+										<a href="#" class="image featured"><img src="images/featured1.jpg" alt="Gerbera Daisy" /></a>
+										<header>
+											<h3>Gerbera Daisies</h3>
+										</header>
+										<p>A graceful arrangement designed to offer peace, comfort, and remembrance during difficult times.</p>
+									</section>
+
+							</div>
+							<div class="col-4 col-6-medium col-12-small">
+
+								<!-- Feature -->
+									<section>
+										<a href="#" class="image featured"><img src="images/featured2.jpg" alt="Yellow and Purple Bouquet" /></a>
+										<header>
+											<h3>Yellow and Purple Bouquet</h3>
+										</header>
+										<p>This bouquet speaks of admiration and heartfelt emotion—perfect for showing how much you care.</p>
+									</section>
+
+							</div>
+							<div class="col-4 col-6-medium col-12-small">
+
+								<!-- Feature -->
+									<section>
+										<a href="#" class="image featured"><img src="images/featured3.jpg" alt="Rose Bouquet" /></a>
+										<header>
+											<h3>Rose Bouquet</h3>
+										</header>
+										<p>An exquisite arrangement of roses. A classic expression of admiration, gratitude and remembrance with timeless beauty.</p>
+									</section>
+							</div>
+							<div class="col-4 col-6-medium col-12-small">
+								<ul class="actions">
+									<li><a href="#" class="button icon solid fa-shopping-cart">Buy Now</a></li>
+								</ul>
+							</div>
+							<div class="col-4 col-6-medium col-12-small">
+								<ul class="actions">
+									<li><a href="#" class="button icon solid fa-shopping-cart">Buy Now</a></li>
+								</ul>
+							</div>
+							<div class="col-4 col-6-medium col-12-small">
+								<ul class="actions">
+									<li><a href="#" class="button icon solid fa-shopping-cart">Buy Now</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="occasion">
+					<div class="container">
+						<header>
+							<h2><strong>Shop By Occasions</strong></h2>
+						</header>
+						<div class="row aln-center">
+							<div class="col-3 col-6-medium col-12-small">
+									<section>
+										<a href="#" class="image"><img src="images/romance.jpg" alt="Bouquet of roses" /><span><strong>Romance</strong></span></a>
+									</section>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+									<section>
+										<a href="#" class="image"><img src="images/birthday.jpg" alt="Bouquet of flowers with a big Chrysanthemum" /><span><strong>Birthday</strong></span></a>
+									</section>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+									<section>
+										<a href="#" class="image"><img src="images/new-baby.jpg" alt="Pink flowers with balloons" /><span><strong>New Baby</strong></span></a>
+									</section>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+									<section>
+										<a href="#" class="image"><img src="images/special.jpg" alt="A pink rose" /><span><strong>Special</strong></span></a>
+									</section>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+									<section>
+										<a href="#" class="image"><img src="images/just-because.jpg" alt="Orange bouquet of flowers" /><span><strong>Just Because</strong></span></a>
+									</section>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+									<section>
+										<a href="#" class="image"><img src="images/get-well.jpg" alt="White and orange bouquet with a Congratulations written on a balloon" /><span><strong>Get Well</strong></span></a>
+									</section>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+									<section>
+										<a href="#" class="image"><img src="images/sympathy.jpg" alt="White mix of flowers" /><span><strong>Sympathy</strong></span></a>
+									</section>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+									<section>
+										<a href="#" class="image"><img src="images/all-flower.jpg" alt="Many flowers in a field" /><span><strong>All Flowers</strong></span></a>
+									</section>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<section id="footer">
+					<div class="container">
+						<header>
+							<h2>Questions or comments? <strong>Get in touch:</strong></h2>
+						</header>
+						<div class="row">
+							<div class="col-6 col-12-medium">
+								<section>
+									<form method="post" action="#">
+										<div class="row gtr-50">
+											<div class="col-6 col-12-small">
+												<input name="name" placeholder="Name" type="text" />
+											</div>
+											<div class="col-6 col-12-small">
+												<input name="email" placeholder="Email" type="text" />
+											</div>
+											<div class="col-12 col-12-small">
+												<input name="subject" placeholder="Subject / Order Number" type="text" />
+											</div>
+											<div class="col-12">
+												<textarea name="message" placeholder="Message"></textarea>
+											</div>
+											<div class="col-12">
+												<a href="#" class="form-button-submit button icon solid fa-envelope">Send Message</a>
+											</div>
+										</div>
+									</form>
+								</section>
+							</div>
+							<div class="col-6 col-12-medium">
+								<section>
+									<p>Leave us a message, or find other ways to contact us down below. Also, check out our 
+										<strong><a href="#">FAQ</a></strong> page for some of the commonly asked questions.</p>
+									<div class="row">
+										<div class="col-6 col-12-small">
+											<ul class="icons">
+												<li class="icon solid fa-map-pin">
+													<a href="#">
+														1010 Clayton Road<br>
+														Clayton Victoria<br>
+														3168
+													</a>
+												</li>
+												<li class="icon solid fa-phone">
+													<a href="#">(03) 1234 9876</a>
+												</li>
+												<li class="icon solid fa-envelope">
+													<a href="#">sale@bloom&beesflorist.com.au</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col-6 col-12-small">
+											<ul class="icons">
+												<li class="icon brands fa-instagram">
+													<a href="#">instagram.com/<br>bloom&beesflorist</a>
+												</li>
+												<li class="icon brands fa-facebook-f">
+													<a href="#">facebook.com/<br>bloom&beesflorist</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+					<div id="copyright" class="container">
+						<ul class="links">
+							<li>&copy; Untitled. All rights reserved.</li>
+							<li>Design Template: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</section>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/function.js"></script>
+	</body>
+</html>
