@@ -2118,7 +2118,7 @@ input, select, textarea {
 
 /* Features */
 
-	#features, #occasion {
+	#features, #occasion, #testimonial {
 		position: relative;
 		overflow: hidden;
 		background: #fff;
@@ -2136,16 +2136,22 @@ input, select, textarea {
 
 /* Occasion */
 
-	#occasion .container, #features .container {
+	#occasion .container, #features .container, #testimonial .container {
 		padding: 50px;
 		background-color: #EBE6D4;
 	}
 
-	#occasion{
-		padding-top: 0;
+	#occasion, #testimonial{
+		padding-top: 0 !important;
+		padding-bottom: 50px !important;
 	}
 
-	#occasion, #features, #features h3{
+	#features{
+		padding-top: 50px !important;
+		padding-bottom: 50px !important;
+	}
+
+	#occasion, #features, #features h3, #testimonial h3, #testimonial{
 		color: #333333;
 	}
 
